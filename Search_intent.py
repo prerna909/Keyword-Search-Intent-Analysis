@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
 
-apikey= "AIzaSyB7CpDy_L9yU5L9TQD5xOlyg2lPPt7DDiU"
+apikey= "123"
 file_path = r"C:\Users\Admin\Downloads\Top Queries.xlsx"
 df = pd.read_excel(file_path) 
 total_queries = len(df.index)
